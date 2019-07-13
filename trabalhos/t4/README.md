@@ -43,7 +43,7 @@ Neste trabalho, você vai paralelizar um programa que gera uma sequência de ima
 
 2. Analise o código e identifique oportunidades de paralelismo, considerando a arquitetura paralela alvo.
 
-3. Projete **duas soluções** paralelas para o programa em questão e implemente 2 programa usando OpenMP: `fractalpar1.cpp` e `fractalpar2.cpp`. Você pode, por exemplo, variar as estratégias de particionamento, de escalonamento, etc.
+3. Projete **duas soluções** paralelas para o programa em questão e implemente 2 programas usando OpenMP: `fractalpar1.cpp` e `fractalpar2.cpp`. Você pode, por exemplo, variar as estratégias de particionamento, de escalonamento, etc.
 
 4. Analise o desempenho dos programas paralelos, começando pela medição dos tempos de execução sequencial e paralela para diferentes entradas do programa: a) 1024 32, b) 1024 64 e c) à sua escolha. Varie o número de threads: 2, 4 e 8. Calcule speedup e eficiência para cada caso. Utilize a mesma técnica de medição de tempos para os dois programas. 
 
